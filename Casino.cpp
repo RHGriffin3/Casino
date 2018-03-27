@@ -747,7 +747,6 @@ BJend:
 	std::cout << "\n";
 }
 
-// shuffleCards() provided for you. DO NOT CHANGE
 void shuffleCards()
 {
 	// Clear the original deck
@@ -788,7 +787,6 @@ void shuffleCards()
 	// Now the _cards variable holds a shuffled deck of cards
 }
 
-// printCards() provided for you. DO NOT CHANGE
 void printCards()
 {
 	// A for-loop that will loop as many times as we have cards
@@ -805,7 +803,6 @@ void printCards()
 	}
 }
 
-// getCardValue() provided for you. DO NOT CHANGE
 int getCardValue(std::string card)
 {
 	int val = 0;
@@ -843,7 +840,6 @@ int getCardValue(std::string card)
 	return val;
 }
 
-// getSuit() provided for you. DO NOT CHANGE
 std::string getSuit(std::string card)
 {
 	// Cards are represented by a collection of characters (strings)
@@ -879,7 +875,6 @@ std::string getSuit(std::string card)
 	return suit;
 }
 
-// drawCard() provided for you. DO NOT CHANGE
 std::string drawCard()
 {
 	std::string card = "";
